@@ -4,42 +4,41 @@
 
 int main() {
     int s1, d1, s2, d2, s3, d3;
-    int cars = 0;
-    int l = 0;
+    int c = 0;
+    int x = 0;
 
     scanf("%d %d %d %d %d %d", &s1, &d1, &s2, &d2, &s3, &d3);
 
-    if (s1 >= l)
+    if (s1 >= x)
     {
-        l = d1;
+        x = d1;
     }
     else
     {
-        cars++;
-        l = d1;
+        c++;
+        x = d1;
     }
 
-    if (s2 >= l)
+    if (s2 >= x)
     {
-        l = d2;
+        x = d2;
     }
     else
     {
-        cars++;
-        l = d2;
+        c++;
+        x = d2;
     }
 
-    if (s3 >= l)
+    if (s3 >= x)
     {
-        l = d3;
+        x = d3;
     }
     else
     {
-        cars++;
+        c++;
     }
 
-
-    printf("%d\n", cars);
+    printf("%d\n", c);
 
     return 0;
 }
