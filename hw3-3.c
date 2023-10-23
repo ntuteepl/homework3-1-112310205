@@ -22,11 +22,11 @@ int main() {
 
     if(i>j)
         {
-        printf("%d\n", x);
+        printf("%d\n", y);
         }
     else if(i<j)
         {
-        printf("%d\n", y);
+        printf("%d\n", x);
         }
     else
         {
