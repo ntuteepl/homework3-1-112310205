@@ -11,8 +11,8 @@ int main()
         prime = false;
 
      if(prime)
-        printf("yes\n");
+        printf("YES\n");
      else
-        printf("no\n");
+        printf("NO\n");
 }
 
